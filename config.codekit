@@ -1837,17 +1837,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/assets\/img\/homepage1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.18191e+06,
-		"inputAbbreviatedPath": "\/assets\/img\/homepage1.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/homepage1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
