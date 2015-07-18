@@ -9,11 +9,6 @@
 
 .footer-col
   +span-columns(3 of 12)
-@media screen and (max-width: $mobile)
-  .footer-col
-    +span-columns(6)
-  .footer-col:nth-child(2)
-    +omega
   h4
     color: white
   ul
@@ -23,6 +18,12 @@
 
 .footer-col:nth-child(4)
   +omega
+
+@media screen and (max-width: $mobile)
+  .footer-col
+    +span-columns(6)
+  .footer-col:nth-child(2)
+    +omega
 .copyright
   +span-columns(12)
   text-align: center
