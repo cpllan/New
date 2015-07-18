@@ -27,14 +27,22 @@
   border: 1px solid #e9e8e9
   @media screen and (max-width: $mobile)
     +span-columns(12)
+    margin-bottom: 20px
+  &:hover
+    .oferta-img-wrap
+      img
+        opacity: 0.6
   img
     width: 100%
     opacity: 0.9
     background: black
+
 .oferta-half:nth-child(2)
   +omega
 .oferta-img-wrap
   position: relative
+  img
+    transition: all 200ms ease-in-out
 .precios
   background: $aqua
   color: white
@@ -50,6 +58,7 @@
   padding: 30px
   h4
     margin: 15px 0 10px
+    color: $aqua
   ul
     padding: 0
     li
@@ -76,6 +85,12 @@
   border: 1px solid #e9e8e9
   @media screen and (max-width: $mobile)
     +span-columns(12)
+    margin-bottom: 20px
+    margin-top: 0
+  &:hover
+    .oferta-img-wrap
+      img
+        opacity: 0.6
   img
     width: 100%
     opacity: 0.9
