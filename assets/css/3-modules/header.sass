@@ -1,0 +1,66 @@
+// SUB NAVIGATION - TOP
+
+.sub-nav-wrap
+  border-bottom: 1px solid $border-color
+  padding: 12px 0
+  @media screen and (max-width: $tablet)
+    display: none
+
+.sub-nav
+  +outer-container
+  +pad(0 30px)
+  p
+    margin: 0
+    font-size: 14px
+    color: $lightgray
+.sub-nav-phone
+  float: left
+.sub-nav-newsletter
+  float: right
+
+
+//   MAIN NAV  - TOP NAVIGATION
+
+.main-nav-wrap
+  +outer-container
+  +pad(48px 30px 56px)
+  position: relative
+  @media screen and (max-width: $tablet)
+    +pad(26px 30px 26px)
+.main-logo-wrap
+  float: left
+.main-logo
+  width: 300px
+  @media screen and (max-width: $mobile)
+    width: 225px
+.main-nav
+  float: right
+  @media screen and (max-width: 1000px)
+    display: none
+  ul
+    padding: 0
+    li
+      display: inline-block
+      list-style: none
+      transition: all 300ms ease-in-out
+      margin-right: 30px
+      @media screen and (max-width: 1100px)
+        margin-right: 15px
+      a
+        color: $gray
+        padding: 7px
+        &:hover
+          color: #43aed9
+    li:last-child
+      margin-right: 0
+.hamburger
+  display: none
+  position: absolute
+  right: 30px
+  margin-top: 15px
+  @media screen and (max-width: 1000px)
+    display: block
+    font-size: 30px
+
+  @media screen and (max-width: $mobile)
+    margin-top: 5px
