@@ -6,8 +6,12 @@
 .slider-content
   +outer-container
   +pad(150px 100px 150px)
+  @media screen and (max-width: 1000px)
+    +pad(100px 30px 120px)
   @media screen and (max-width: $tablet)
     +pad(60px 30px 80px)
+  @media screen and (max-width: $mobile)
+    +pad(30px 30px 50px)
   .ofertas-title
     text-transform: uppercase
     color: white
@@ -21,6 +25,11 @@
     margin: 0
     @media screen and (max-width: $tablet)
       font-size: 49px
+    @media screen and (max-width: $mobile)
+      font-size: 32px
+    br
+      @media screen and (max-width: $mobile)
+        display: none
   p
     color: white
     max-width: 600px
@@ -37,11 +46,23 @@
 
 
 .n1
-  background: url('../img/n1-wide.jpg') center no-repeat
-  margin: 0 20px
+  @media screen and (min-width: 1300px)
+    background: url('../img/n1-wide.jpg') center no-repeat
+  @media screen and (max-width: 1299px)
+    background: url('../img/n1-normal.jpg') center no-repeat
+  @media screen and (max-width: $tablet)
+    background: url('../img/n1-tablet.jpg') center no-repeat
+  @media screen and (max-width: $mobile)
+    background: url('../img/n1-mobile.jpg') center no-repeat
 .n2
-  background: url('../img/n2-wide.jpg') center no-repeat
-  margin: 0 20px
+  @media screen and (min-width: 1300px)
+    background: url('../img/n2-wide.jpg') center no-repeat
+  @media screen and (max-width: 1299px)
+    background: url('../img/n2-normal.jpg') center no-repeat
+  @media screen and (max-width: $tablet)
+    background: url('../img/n2-normal.jpg') center no-repeat
+  @media screen and (max-width: $mobile)
+    background: url('../img/n2-mobile.jpg') center no-repeat
 .slick-arrow
   z-index: 100
   position: absolute

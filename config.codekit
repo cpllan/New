@@ -1859,6 +1859,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/n1-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243586,
+		"inputAbbreviatedPath": "\/assets\/img\/n1-mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n1-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/n1-normal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 858212,
+		"inputAbbreviatedPath": "\/assets\/img\/n1-normal.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n1-normal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/n1-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537406,
+		"inputAbbreviatedPath": "\/assets\/img\/n1-tablet.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n1-tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/n1-wide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1866,6 +1899,39 @@
 		"initialSize": 1.09822e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/n1-wide.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/n1-wide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/n2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153349,
+		"inputAbbreviatedPath": "\/assets\/img\/n2-mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/n2-normal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 587766,
+		"inputAbbreviatedPath": "\/assets\/img\/n2-normal.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n2-normal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/n2-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295937,
+		"inputAbbreviatedPath": "\/assets\/img\/n2-tablet.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/n2-tablet.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
