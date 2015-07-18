@@ -17,7 +17,7 @@
 
 $(document).ready(function(){
   $('.home-slider').slick({
-    speed: 600,
+    speed: 300,
     arrows: true,
     dots: true,
     autoplay: true,
