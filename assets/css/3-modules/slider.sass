@@ -1,0 +1,57 @@
+.home-slider
+  overflow: hidden
+  position: relative
+  max-width: 1600px
+  margin: 0 auto
+.slider-content
+  +outer-container
+  +pad(150px 100px 150px)
+  @media screen and (max-width: $tablet)
+    +pad(60px 30px 80px)
+  .ofertas-title
+    text-transform: uppercase
+    color: white
+    font-size: 18px
+    letter-spacing: 4px
+  h1
+    font-size: 55px
+    color: white
+    font-weight: 300
+    max-width: 600px
+    margin: 0
+    @media screen and (max-width: $tablet)
+      font-size: 49px
+  p
+    color: white
+    max-width: 600px
+    margin-top: 26px
+    @media screen and (max-width: $tablet)
+      max-width: 400px
+    br
+      @media screen and (max-width: $tablet)
+        display: none
+  a
+    background: white
+    padding: 13px 60px
+    display: inline-block
+
+
+.n1
+  background: url('../img/n1-wide.jpg') center no-repeat
+.n2
+  background: url('../img/n2-wide.jpg') center no-repeat
+.slick-arrow
+  z-index: 100
+  position: absolute
+  background: white
+  color: $blue
+  border-radius: 0
+  border: none
+  top: 300px
+  @media screen and (max-width: $tablet)
+    display: none!important
+.slick-prev
+  left: 0
+.slick-next
+  right: 0
+  z-index: 100
