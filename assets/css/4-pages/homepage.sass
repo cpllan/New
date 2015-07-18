@@ -1,9 +1,13 @@
 .ofertas-recientes-wrap
   +outer-container
   +pad(50px 30px)
+  @media screen and (max-width: $tablet)
+    +pad(30px 10px)
   h3
     font-weight: 400
     text-align: center
+    @media screen and (max-width: $tablet)
+      margin-top: 0
     @media screen and (max-width: $mobile)
       margin-top: 0
 .sub-p
@@ -12,7 +16,7 @@
   margin: 0 auto 60px
   color: $lightgray
   @media screen and (max-width: $tablet)
-    width: 100%
+    display: none
   @media screen and (max-width: $mobile)
     display: none
 
