@@ -1730,6 +1730,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/3-modules\/footer.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/footer.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/3-modules\/header.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1793,6 +1809,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/css\/css\/footer.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/css\/footer.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/css\/slick.css": {
 		"fileType": 16,
@@ -1943,6 +1968,50 @@
 		"initialSize": 155954,
 		"inputAbbreviatedPath": "\/assets\/img\/oferta-1.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/oferta-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/oferta-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359967,
+		"inputAbbreviatedPath": "\/assets\/img\/oferta-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/oferta-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/oferta-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173496,
+		"inputAbbreviatedPath": "\/assets\/img\/oferta-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/oferta-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/oferta-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173496,
+		"inputAbbreviatedPath": "\/assets\/img\/oferta-4.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/oferta-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/oferta-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389437,
+		"inputAbbreviatedPath": "\/assets\/img\/oferta-5.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/oferta-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

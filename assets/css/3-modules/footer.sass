@@ -1,0 +1,31 @@
+.main-footer
+  background: #104069
+  padding: 30px 0
+
+.main-footer-wrap
+  +outer-container
+  +pad(10px 30px)
+  color: white
+
+.footer-col
+  +span-columns(3 of 12)
+@media screen and (max-width: $mobile)
+  .footer-col
+    +span-columns(6)
+  .footer-col:nth-child(2)
+    +omega
+  h4
+    color: white
+  ul
+    padding: 0
+    li
+      list-style: none
+
+.footer-col:nth-child(4)
+  +omega
+.copyright
+  +span-columns(12)
+  text-align: center
+  margin-top: 60px
+  padding-top: 30px
+  border-top: 1px solid rgba(255, 255, 255, 0.1)
