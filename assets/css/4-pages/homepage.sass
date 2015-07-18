@@ -1,0 +1,76 @@
+.ofertas-recientes-wrap
+  +outer-container
+  +pad(50px 30px)
+  h3
+    // text-transform: uppercase
+    text-align: center
+    font-weight: 400
+    // font-size: 23px
+    // letter-spacing: 4px
+
+.sub-p
+  text-align: center
+  width: 80%
+  margin: 0 auto 60px
+  color: $lightgray
+  @media screen and (max-width: $tablet)
+    width: 100%
+  @media screen and (max-width: $mobile)
+    display: none
+
+.oferta-half
+  +span-columns(6 of 12)
+  background: white
+  position: relative
+  border: 1px solid #e9e8e9
+  @media screen and (max-width: $mobile)
+    +span-columns(12)
+  img
+    width: 100%
+.oferta-half:nth-child(2)
+  +omega
+.oferta-img-wrap
+  position: relative
+.precios
+  background: $aqua
+  color: white
+  font-weight: bold
+  padding: 15px 30px
+  position: absolute
+  bottom: -17px
+  right: 0
+  @media screen and (max-width: $tablet)
+    width: 100%
+
+.oferta-detail
+  padding: 30px
+  h4
+    margin: 15px 0 10px
+  ul
+    padding: 0
+    li
+      list-style: none
+      display: inline-block
+      margin-right: 10px
+
+  .learn-more
+    text-indent: -9999px
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+
+.oferta-thirds
+  margin-top: 25px
+  +span-columns(4 of 12)
+  +clearfix
+  background: white
+  position: relative
+  border: 1px solid #e9e8e9
+  @media screen and (max-width: $mobile)
+    +span-columns(12)
+  img
+    width: 100%
+  .precios
+    width: 100%

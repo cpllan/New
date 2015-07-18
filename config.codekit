@@ -1778,15 +1778,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/4-pages\/_example-page-home.sass": {
+	"\/assets\/css\/4-pages\/homepage.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_example-page-home.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_example-page-home.css",
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/homepage.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/homepage.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1932,6 +1932,17 @@
 		"initialSize": 808561,
 		"inputAbbreviatedPath": "\/assets\/img\/n2-wide.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/n2-wide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/oferta-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155954,
+		"inputAbbreviatedPath": "\/assets\/img\/oferta-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/oferta-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
