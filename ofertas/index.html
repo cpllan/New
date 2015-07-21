@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../assets/img/favicons/favicon.ico">
   <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 </head>
 <body>
 <header>
   <div class="sub-nav-wrap">
     <div class="sub-nav">
-      <p class="sub-nav-phone">Para reservacaciones: (809) 545 - 5445</p>
-      <p class="sub-nav-newsletter">Subcribete a nuestro boletin</p>
+      <p class="sub-nav-phone">Para reservacaciones:  <span class="ion-iphone"></span>  (809) 545 - 5445</p>
+      <p class="sub-nav-newsletter"><a href="">Subcribete a nuestro boletin <span class="ion-email"></span></a></p>
     </div>
   </div>
   <div class="main-nav-wrap">
@@ -46,16 +47,17 @@
 </div>
 
 <section class="ofertas" id="Container">
+
+
+<div class="content-services">
   <div class="sort-menu">
-    <h3>Seleccione Ofertas</h3>
+    <h5>Filtro: </h5>
     <button class="filter" data-filter="all">Todas</button>
     <button class="filter" data-filter=".local">Nacionales</button>
     <button class="filter" data-filter=".internacional">Internacional</button>
     <button class="sort" data-sort="my-order:asc">Menor Precio</button>
     <button class="sort" data-sort="my-order:desc">Mayor Precio</button>
   </div>
-
-<div class="content-services">
   <div class="mix internacional" data-my-order="1450">
       <img class="oferta-img"src="../assets/img/oferta-1.jpg" title="Crucero En Europa">
       <div class="detalles-ofertas">
@@ -108,7 +110,23 @@
       <a href="../ofertas/oferta-1.html" rel="modal:open" class="offers-modal-link">Read More</a>
   </div>
 </div>
+
+<sidebar class="sidebar">
+  <h4>Ofertas</h4>
+  <ul>
+    <li><a href="#">Internacionales <span class="ion-chevron-right"></span></a></li>
+    <li><a href="#">Nacionales<span class="ion-chevron-right"></a></span></li>
+  </ul>
+  <h4>Hoteles</h4>
+  <ul>
+    <li><a href="#">Santo Domingo <span class="ion-chevron-right"></span></a></li>
+    <li><a href="#">Puerto Plata <span class="ion-chevron-right"></span></a></li>
+    <li><a href="#">Samana <span class="ion-chevron-right"></span></a></li>
+    <li><a href="#">Sosua <span class="ion-chevron-right"></span></a></li>
+  </ul>
+</sidebar>
 </section>
+
 <section class="asistencia">
     <div class="asistencia-wrap">
       <h3>¿Necesita Asistencia?</h3>

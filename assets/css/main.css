@@ -471,6 +471,8 @@ input[type="button"] {
 
 .sub-nav-newsletter {
   float: right; }
+  .sub-nav-newsletter span {
+    font-size: 22px; }
 
 .main-nav-wrap {
   max-width: 1100px;
@@ -616,6 +618,9 @@ input[type="button"] {
     padding: 13px 60px;
     display: inline-block;
     border-radius: 2px; }
+    .slider-content a span {
+      font-size: 12px;
+      margin-left: 10px; }
 
 @media screen and (min-width: 1300px) {
   .n1 {
@@ -646,20 +651,20 @@ input[type="button"] {
 .slick-arrow {
   z-index: 100;
   position: absolute;
-  background: white;
-  color: #0074D9;
+  color: white;
   border-radius: 0;
   border: none;
-  top: 300px; }
+  top: 225px;
+  font-size: 35px; }
   @media screen and (max-width: 768px) {
     .slick-arrow {
       display: none !important; } }
 
 .slick-prev {
-  left: 0; }
+  left: 20px; }
 
 .slick-next {
-  right: 0;
+  right: 20px;
   z-index: 100; }
 
 .slick-dots {
@@ -796,7 +801,7 @@ input[type="button"] {
 
 .sub-p {
   text-align: center;
-  width: 80%;
+  width: 74%;
   margin: 0 auto 40px;
   color: #8e8e8e; }
   @media screen and (max-width: 768px) {
@@ -832,8 +837,7 @@ input[type="button"] {
     opacity: 0.6; }
   .oferta-half img {
     width: 100%;
-    opacity: 0.9;
-    background: black; }
+    opacity: 0.9; }
   .oferta-half p {
     font-size: 15px;
     color: #8e8e8e;
@@ -972,7 +976,7 @@ input[type="button"] {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 23.2317613015%;
+  width: 100%;
   background: #8e8e8e; }
   .sort-menu:last-child {
     margin-right: 0; }
@@ -981,7 +985,8 @@ input[type="button"] {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 74.4105871005%; }
+  width: 74.4105871005%;
+  margin-left: 25.5894128995%; }
   .content-services:last-child {
     margin-right: 0; }
 
@@ -1003,10 +1008,11 @@ input[type="button"] {
 .mix {
   height: 200px;
   margin-bottom: 25px;
-  border: 1px solid #e9e8e9;
+  border: 1px solid #efeeef;
   overflow: hidden;
   display: block;
-  position: relative; }
+  position: relative;
+  box-shadow: 5px 5px 15px #fafafa; }
   .mix:hover {
     opacity: 0.6; }
 
@@ -1050,29 +1056,25 @@ input[type="button"] {
 
 .sort-menu {
   background: #f6f6f6;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 25px; }
   .sort-menu button {
     border: 0;
     text-transform: none;
     font-size: 15px;
-    font-weight: 400;
     letter-spacing: 0;
-    border-radius: 0;
-    border-bottom: 1px solid #DFDFDF;
+    font-weight: 400;
     height: 48px;
-    width: 100%;
-    margin-right: -30px;
-    margin-left: -30px;
-    text-align: left;
-    padding: 0;
-    float: right;
-    display: block; }
-  .sort-menu h3 {
-    font-size: 20px;
-    margin: 0 0 20px; }
+    padding: 10px 15px;
+    line-height: 30px; }
+  .sort-menu h5 {
+    font-size: 16px;
+    color: #999;
+    margin: 0 20px 0;
+    display: inline-block; }
   .sort-menu .active {
-    color: #3589ab;
+    color: white;
+    background: #3589ab;
     font-weight: bold; }
 
 .breadcrumbs {
@@ -1093,6 +1095,38 @@ input[type="button"] {
 .faux-link {
   color: #3589ab !important; }
 
+.modal-slider .slick-arrow {
+  top: 190px; }
+
+.sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-left: -102.3576515979%;
+  background: #f6f6f6;
+  padding: 30px; }
+  .sidebar:last-child {
+    margin-right: 0; }
+  .sidebar h4 {
+    margin-top: 0; }
+  .sidebar ul {
+    padding: 0;
+    margin-bottom: 30px; }
+    .sidebar ul li {
+      list-style: none;
+      border-bottom: 1px solid #E4E4E4;
+      margin-right: -25px;
+      margin-bottom: 5px; }
+      .sidebar ul li a {
+        padding: 8px 0;
+        display: block; }
+        .sidebar ul li a span {
+          display: inline-block;
+          float: right;
+          margin-right: 25px;
+          font-size: 9px; }
+
 .services-background {
   background: url("../img/inner-services.jpg") bottom right; }
 
@@ -1100,7 +1134,7 @@ input[type="button"] {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 30px; }
+  padding: 30px 30px; }
   .servicios-wrap::after {
     clear: both;
     content: "";

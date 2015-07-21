@@ -21,6 +21,8 @@ $(document).ready(function(){
     speed: 300,
     arrows: true,
     dots: true,
+    prevArrow: '<span class="slick-prev ion-chevron-left"></span>',
+    nextArrow: '<span class="slick-next ion-chevron-right"></span>',
     autoplay: true,
     autoplaySpeed: 4000,
     cssEase: 'linear'

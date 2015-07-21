@@ -7,6 +7,8 @@ $(document).ready(function(){
     arrows: true,
     autoplay: true,
     autoplaySpeed: 4000,
+    prevArrow: '<span class="slick-prev ion-chevron-left"></span>',
+    nextArrow: '<span class="slick-next ion-chevron-right"></span>',
     cssEase: 'linear'
   });
 });
