@@ -1,7 +1,7 @@
 .modal {
   display: none;
   max-width: 600px;
-  height: 700px;
+  height: 710px;
   position: relative;
   width: 90%;
   margin: 0 auto;
@@ -23,17 +23,13 @@
   a {
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
-    margin-left: -25px;
     background: $aqua;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
-  }
-  p {
-    clear: both;
-    padding-top: 20px;
   }
   ul {
     margin-bottom: 40px;
