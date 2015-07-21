@@ -21,12 +21,21 @@
 .ofertas
   +outer-container
   +pad (30px 30px)
+  @media screen and (max-width: $tablet)
+
+  @media screen and (max-width: $mobile)
+    +pad(20px)
 .sort-menu
   +span-columns(12)
   background: $lightgray
 .content-services
   +span-columns(9)
   +shift(3)
+  @media screen and (max-width: $tablet)
+
+  @media screen and (max-width: $mobile)
+    +span-columns(12)
+    +shift(0)
 .mix
   +span-columns(12 of 12)
 .mix:nth-child(2)
@@ -34,6 +43,11 @@
 .oferta-img
   height: 200px
   float: left
+  @media screen and (max-width: $tablet)
+
+  @media screen and (max-width: $mobile)
+    width: 100%
+    height: auto
 
 .mix
   height: 200px
@@ -45,6 +59,8 @@
   box-shadow: 5px 5px 15px #fafafa
   &:hover
     opacity: 0.6
+  @media screen and (max-width: $mobile)
+    height: auto
 
 .detalles-ofertas
   padding: 20px 35px
@@ -61,6 +77,11 @@
     position: absolute
     top: 20px
     right: 35px
+    @media screen and (max-width: $mobile)
+      display: block
+      position: relative
+      top: 0
+      right: 0
   p
     color: $lightgray
     font-size: 15px
@@ -95,11 +116,22 @@
     height: 48px
     padding: 10px 15px
     line-height: 30px
+    @media screen and (max-width: $tablet)
+
+    @media screen and (max-width: $mobile)
+      display: inline-block
+      padding: 5px 5px
+      margin-bottom: 5px
   h5
     font-size: 16px
     color: #999
     margin: 0 20px 0
     display: inline-block
+    @media screen and (max-width: $tablet)
+
+    @media screen and (max-width: $mobile)
+      display: block
+      margin: 0 0 10px 0
   .active
     color: white
     background: $aqua
@@ -120,6 +152,11 @@
   +shift(-12)
   background: #f6f6f6
   padding: 30px
+  @media screen and (max-width: $tablet)
+
+  @media screen and (max-width: $mobile)
+    +span-columns(12)
+    +shift(0)
   h4
     margin-top: 0
   ul
@@ -152,10 +189,15 @@
       list-style: none
       padding: 0
       display: inline-block
-    li.icon
+    .icon
       color: $aqua
       margin: 0 10px
 .precio
   color: $aqua
   font-size: 18px
   float: right
+  @media screen and (max-width: $mobile)
+    float: left
+    display: block
+    width: 100%
+    margin: 10px 0

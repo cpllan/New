@@ -273,6 +273,9 @@ html {
   -o-box-shadow: 0 0 2px #000;
   -ms-box-shadow: 0 0 2px #000;
   box-shadow: 0 0 2px #000; }
+  @media screen and (max-width: 480px) {
+    .modal {
+      height: auto; } }
   .modal img {
     width: 100%; }
 
@@ -321,6 +324,9 @@ html {
 
 .modal-slider {
   margin-right: -1px; }
+  @media screen and (max-width: 480px) {
+    .modal-slider {
+      display: none; } }
 
 body {
   background-color: white;
@@ -971,6 +977,9 @@ input[type="button"] {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (max-width: 480px) {
+    .ofertas {
+      padding: 20px; } }
 
 .sort-menu {
   float: left;
@@ -989,6 +998,15 @@ input[type="button"] {
   margin-left: 25.5894128995%; }
   .content-services:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .content-services {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      margin-left: 0%; }
+      .content-services:last-child {
+        margin-right: 0; } }
 
 .mix {
   float: left;
@@ -1004,6 +1022,10 @@ input[type="button"] {
 .oferta-img {
   height: 200px;
   float: left; }
+  @media screen and (max-width: 480px) {
+    .oferta-img {
+      width: 100%;
+      height: auto; } }
 
 .mix {
   height: 200px;
@@ -1015,6 +1037,9 @@ input[type="button"] {
   box-shadow: 5px 5px 15px #fafafa; }
   .mix:hover {
     opacity: 0.6; }
+  @media screen and (max-width: 480px) {
+    .mix {
+      height: auto; } }
 
 .detalles-ofertas {
   padding: 20px 35px;
@@ -1031,6 +1056,12 @@ input[type="button"] {
     position: absolute;
     top: 20px;
     right: 35px; }
+    @media screen and (max-width: 480px) {
+      .detalles-ofertas span {
+        display: block;
+        position: relative;
+        top: 0;
+        right: 0; } }
   .detalles-ofertas p {
     color: #8e8e8e;
     font-size: 15px;
@@ -1067,11 +1098,20 @@ input[type="button"] {
     height: 48px;
     padding: 10px 15px;
     line-height: 30px; }
+    @media screen and (max-width: 480px) {
+      .sort-menu button {
+        display: inline-block;
+        padding: 5px 5px;
+        margin-bottom: 5px; } }
   .sort-menu h5 {
     font-size: 16px;
     color: #999;
     margin: 0 20px 0;
     display: inline-block; }
+    @media screen and (max-width: 480px) {
+      .sort-menu h5 {
+        display: block;
+        margin: 0 0 10px 0; } }
   .sort-menu .active {
     color: white;
     background: #3589ab;
@@ -1105,6 +1145,15 @@ input[type="button"] {
   padding: 30px; }
   .sidebar:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .sidebar {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      margin-left: 0%; }
+      .sidebar:last-child {
+        margin-right: 0; } }
   .sidebar h4 {
     margin-top: 0; }
   .sidebar ul {
@@ -1136,7 +1185,7 @@ input[type="button"] {
     list-style: none;
     padding: 0;
     display: inline-block; }
-  .modal-info ul li.icon {
+  .modal-info ul .icon {
     color: #3589ab;
     margin: 0 10px; }
 
@@ -1144,6 +1193,12 @@ input[type="button"] {
   color: #3589ab;
   font-size: 18px;
   float: right; }
+  @media screen and (max-width: 480px) {
+    .precio {
+      float: left;
+      display: block;
+      width: 100%;
+      margin: 10px 0; } }
 
 .services-background {
   background: url("../img/inner-services.jpg") bottom right; }

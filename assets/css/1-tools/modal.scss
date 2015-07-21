@@ -11,6 +11,9 @@
   -o-box-shadow: 0 0 2px #000;
   -ms-box-shadow: 0 0 2px #000;
   box-shadow: 0 0 2px #000;
+  @media screen and (max-width: $mobile) {
+    height: auto;
+  }
   img {
     width: 100%;
   }
@@ -64,4 +67,7 @@
 }
 .modal-slider {
   margin-right: -1px;
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
 }
