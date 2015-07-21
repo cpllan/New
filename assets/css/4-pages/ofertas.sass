@@ -9,9 +9,6 @@
     font-size: 48px
     margin-bottom: 20px
     font-weight: 300
-  p
-    color: white
-    max-width: 700px
 .offers-background
   background: url('../img/inner-offers.jpg') center right
 .inner-title-wrap
@@ -23,7 +20,7 @@
 
 .ofertas
   +outer-container
-  +pad (0 30px)
+  +pad (30px 30px)
 .sort-menu
   +span-columns(3)
   background: $lightgray
@@ -48,19 +45,24 @@
     opacity: 0.6
 
 .detalles-ofertas
-  padding: 25px 25px 0
+  padding: 20px 35px
   overflow: hidden
   position: relative
   h3
-    margin: 0 0 15px 0
+    margin: 0 0 14px 0
     color: #222
     font-size: 20px
-    span
-      color: $aqua
-      margin-left: 10px
-      float: right
+  span
+    color: $aqua
+    margin-bottom: 7px
+    display: block
+    position: absolute
+    top: 20px
+    right: 35px
   p
     color: $lightgray
+    font-size: 15px
+    margin-bottom: 10px
 .mixy
   width: 100%
   height: 300px
@@ -77,8 +79,10 @@
   right: 0
   top: 0
   bottom: 0
+
 .sort-menu
   background: #f6f6f6
+  padding: 30px
   margin-bottom: 25px
   button
     border: 0
@@ -87,7 +91,28 @@
     font-weight: 400
     letter-spacing: 0
     border-radius: 0
+    border-bottom: 1px solid #DFDFDF
+    height: 48px
+    width: 100%
+    margin-right: -30px
+    margin-left: -30px
+    text-align: left
+    padding: 0
+    float: right
     display: block
+  h3
+    font-size: 20px
+    margin: 0 0 20px
   .active
-    background: $aqua
-    color: white
+    color: $aqua
+    font-weight: bold
+
+.breadcrumbs
+  border-bottom: 1px solid #e9e8e9
+.breadcrumbs-wrap
+  +outer-container
+  +pad(0 30px)
+  p
+    margin-top: 20px
+.faux-link
+  color: $aqua!important

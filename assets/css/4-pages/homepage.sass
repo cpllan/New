@@ -6,14 +6,11 @@
   h3
     font-weight: 400
     text-align: center
-    @media screen and (max-width: $tablet)
-      margin-top: 0
-    @media screen and (max-width: $mobile)
-      margin-top: 0
+    margin-top: 0
 .sub-p
   text-align: center
   width: 80%
-  margin: 0 auto 60px
+  margin: 0 auto 40px
   color: $lightgray
   @media screen and (max-width: $tablet)
     display: none
@@ -21,44 +18,45 @@
     display: none
 
 .oferta-half
+  box-shadow: 5px 5px 15px #fafafa
+  overflow: hidden
   +span-columns(6 of 12)
   background: white
   position: relative
-  border: 1px solid #e9e8e9
+  border: 1px solid #efeeef
+  transition: all 300ms ease-in-out
   @media screen and (max-width: $mobile)
     +span-columns(12)
     margin-bottom: 20px
   &:hover
-    .oferta-img-wrap
-      img
-        opacity: 0.6
+    opacity: 0.6
   img
     width: 100%
     opacity: 0.9
     background: black
 
+  p
+    font-size: 15px
+    color: #8e8e8e
+    border-bottom: 1px solid #efeeef
+    margin: 0 -30px
+    padding: 5px 30px 25px
+
+
 .oferta-half:nth-child(2)
   +omega
 .oferta-img-wrap
   position: relative
-  img
-    transition: all 200ms ease-in-out
 .precios
-  background: $aqua
-  color: white
-  font-weight: bold
-  padding: 15px 30px
-  position: absolute
-  bottom: -17px
-  right: 0
-  @media screen and (max-width: $tablet)
-    width: 100%
+  color: $aqua
+  font-size: 17px
+  display: block
+  padding-bottom: 10px
 
 .oferta-detail
-  padding: 30px
+  padding: 10px 30px
   h4
     margin: 15px 0 10px
-    color: $aqua
   ul
     padding: 0
     li
@@ -66,6 +64,7 @@
       display: inline-block
       margin-right: 10px
       color: $lightgray
+      font-size: 15px
 
   .learn-more
     text-indent: -9999px
@@ -76,23 +75,38 @@
     right: 0
 
 .oferta-thirds
+  box-shadow: 5px 5px 15px #fafafa
+  overflow: hidden
   margin-top: 25px
   margin-bottom: 40px
   +span-columns(4 of 12)
   +clearfix
   background: white
   position: relative
-  border: 1px solid #e9e8e9
+  border: 1px solid #efeeef
+  transition: all 300ms ease-in-out
+  @media screen and (max-width: $tablet)
+    +span-columns(6)
+    margin-bottom: 0px
+    margin-top: 20px
   @media screen and (max-width: $mobile)
     +span-columns(12)
     margin-bottom: 20px
     margin-top: 0
   &:hover
-    .oferta-img-wrap
-      img
-        opacity: 0.6
+    opacity: 0.6
   img
     width: 100%
     opacity: 0.9
+  p
+    font-size: 15px
+    color: #8e8e8e
+    border-bottom: 1px solid #efeeef
+    margin: 0 -30px
+    padding: 5px 30px 25px
   .precios
     width: 100%
+
+.oferta-thirds:nth-child(2n)
+  @media screen and (max-width: $tablet)
+    +omega
