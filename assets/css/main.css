@@ -601,7 +601,8 @@ input[type="button"] {
     margin: 0 0 14px; }
     @media screen and (max-width: 768px) {
       .slider-content h1 {
-        font-size: 49px; } }
+        font-size: 40px;
+        line-height: 48px; } }
     @media screen and (max-width: 480px) {
       .slider-content h1 {
         font-size: 32px;
@@ -998,6 +999,15 @@ input[type="button"] {
   margin-left: 25.5894128995%; }
   .content-services:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .content-services {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      margin-left: 0%; }
+      .content-services:last-child {
+        margin-right: 0; } }
   @media screen and (max-width: 480px) {
     .content-services {
       float: left;
@@ -1148,6 +1158,15 @@ input[type="button"] {
   padding: 30px; }
   .sidebar:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      margin-left: 0%; }
+      .sidebar:last-child {
+        margin-right: 0; } }
   @media screen and (max-width: 480px) {
     .sidebar {
       float: left;
@@ -1223,3 +1242,12 @@ input[type="button"] {
     margin-left: 25.5894128995%; }
     .servicios-wrap .content-services:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .servicios-wrap .content-services {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%;
+        margin-left: 0%; }
+        .servicios-wrap .content-services:last-child {
+          margin-right: 0; } }
