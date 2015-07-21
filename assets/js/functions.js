@@ -1,6 +1,7 @@
 // @codekit-prepend "jquery.js";
 // @codekit-prepend "navigation.js";
 // @codekit-prepend "slider.js";
+// @codekit-prepend "lazyload.js";
 
 
   $(document).ready(function() {
