@@ -2,7 +2,8 @@
 // @codekit-prepend "navigation.js";
 // @codekit-prepend "slider.js";
 // @codekit-prepend "lazyload.js";
-
+// @codekit-prepend "jquery.mixitup.js";
+// @codekit-prepend "modal.js";
 
   $(document).ready(function() {
     $('#menu').sidr({
@@ -26,5 +27,22 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 4000,
     cssEase: 'linear'
+  });
+});
+
+$(function(){
+  $('#Container').mixItUp({
+    animation: {
+    duration: 400,
+    effects: 'fade',
+    easing: 'ease'
+    }
+  });
+});
+
+$('#manual-ajax').click(function(event) {
+  event.preventDefault();
+    $.get(this.href, function(html) {
+    $(html).appendTo('body').modal();
   });
 });

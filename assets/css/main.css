@@ -1045,6 +1045,9 @@ input[type="button"] {
   padding: 20px 35px;
   overflow: hidden;
   position: relative; }
+  @media screen and (max-width: 480px) {
+    .detalles-ofertas {
+      padding: 15px; } }
   .detalles-ofertas h3 {
     margin: 0 0 14px 0;
     color: #222;
