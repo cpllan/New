@@ -2142,6 +2142,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/inner-hoteles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 849500,
+		"inputAbbreviatedPath": "\/assets\/img\/inner-hoteles.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/inner-hoteles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/inner-offers.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2457,6 +2468,17 @@
 		"initialSize": 198637,
 		"inputAbbreviatedPath": "\/assets\/img\/oferta-7.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/oferta-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/Untitled-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194244,
+		"inputAbbreviatedPath": "\/assets\/img\/Untitled-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/Untitled-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

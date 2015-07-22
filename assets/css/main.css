@@ -943,28 +943,26 @@ input[type="button"] {
 
 .inner-title-section {
   background-size: cover;
-  background: #104069;
-  padding: 50px 0 65px;
-  max-width: 1500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px; }
+  .inner-title-section::after {
+    clear: both;
+    content: "";
+    display: table; }
   .inner-title-section h1 {
     color: white;
     font-size: 48px;
-    margin-bottom: 20px;
+    margin: 0;
     font-weight: 300; }
 
 .offers-background {
   background: url("../img/inner-offers.jpg") center right; }
 
 .inner-title-wrap {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 30px; }
-  .inner-title-wrap::after {
-    clear: both;
-    content: "";
-    display: table; }
+  padding: 80px 60px; }
 
 #Container .mix {
   display: none; }
@@ -1130,25 +1128,11 @@ input[type="button"] {
     background: #3589ab;
     font-weight: bold; }
 
-.breadcrumbs {
-  border-bottom: 1px solid #e9e8e9; }
-
-.breadcrumbs-wrap {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 30px; }
-  .breadcrumbs-wrap::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .breadcrumbs-wrap p {
-    margin-top: 20px; }
-
 .faux-link {
   color: #3589ab !important; }
   .faux-link i {
-    font-size: 12px; }
+    font-size: 12px;
+    margin-left: 6px; }
 
 .sidebar {
   float: left;
@@ -1226,6 +1210,10 @@ input[type="button"] {
 
 .services-background {
   background: url("../img/inner-services.jpg") bottom right; }
+
+.hoteles-background {
+  background: url("../img/inner-hoteles.jpg") center right;
+  background-size: cover; }
 
 .servicios-wrap {
   max-width: 1100px;

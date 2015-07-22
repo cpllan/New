@@ -1,19 +1,17 @@
 .inner-title-section
   background-size: cover
-  background: #104069
-  padding: 50px 0 65px
-  max-width: 1500px
   margin: 0 auto
+  +outer-container
+  +pad(0 30px)
   h1
     color: white
     font-size: 48px
-    margin-bottom: 20px
+    margin: 0
     font-weight: 300
 .offers-background
   background: url('../img/inner-offers.jpg') center right
 .inner-title-wrap
-  +outer-container
-  +pad(0 30px)
+  +pad(80px 60px)
 
 #Container .mix
   display: none
@@ -140,13 +138,6 @@
     background: $aqua
     font-weight: bold
 
-.breadcrumbs
-  border-bottom: 1px solid #e9e8e9
-.breadcrumbs-wrap
-  +outer-container
-  +pad(0 30px)
-  p
-    margin-top: 20px
 .faux-link
   color: $aqua!important
   i
