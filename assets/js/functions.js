@@ -32,10 +32,8 @@ $(document).ready(function(){
 
 $(function(){
   $('#Container').mixItUp({
-    animation: {
-    duration: 400,
-    effects: 'fade',
-    easing: 'ease'
+    load: {
+      sort: 'random'
     }
   });
 });
